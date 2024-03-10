@@ -1,0 +1,442 @@
+html{
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 20px;
+    font-style: normal;
+    background-color: #DCCCFF;
+    }
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+h2{
+    font-size: 45px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
+    }
+h3{
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 0, 0);
+    margin-bottom: 20px
+    }
+p{
+    font-size: 22px;
+    color: black;
+    font-family: Courier,'Courier New', monospace;
+    margin-bottom: 10px;
+    line-height: 1.5;
+   }
+img{
+    border: solid 4px #420039;
+    margin: 20px;
+    margin-bottom: 20px;
+    }
+video{
+    border: solid 4px #420039;
+    margin: 20px;
+    margin-bottom: 20px;
+    }
+ul{
+    font-size: 22px;
+    color: black;
+    font-family: Courier,'Courier New', monospace;
+    margin-bottom: 10px;
+    list-style-type: circle;
+    margin: 20px;
+    }
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffffcc;;
+    border-radius: 10px;
+    border:#420039 10px solid;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    margin:0;
+    padding-top: 8px;
+}
+nav ul li{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #420039;
+    border-radius: 10px;
+    background-color: #F6F2FF;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover{
+    background-color: #DCCCFf;
+    color: #000000;
+}
+nav a:hover, nav a:focus{
+    text-decoration: underline;
+}
+
+*:focus{
+outline: 2px solid #000000;
+}
+.offscreen{
+    position: absolute;
+    left: -9999px;
+    background-color: #F6F2FF;
+    padding: 6px;
+}
+.offscreen:focus{
+    left: 10px;
+}
+.active{
+	background: #DCCCFf;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.active a{
+	text-decoration: none;
+}
+.home a{
+    text-decoration: none;
+}
+.home a:hover{
+    text-decoration: underline;
+}
+
+.recipe-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.recipe-1{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.recipe-2{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.recipe-3{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.text-block{
+    background-color: #ffffffcc;
+    border: 10px solid #420039;
+    padding: 30px;
+}
+
+.pet-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+}
+.pet_a{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.pet_b{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.pet_c{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.pet_d{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.pet_e{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.pet-opening img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.pet-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.travel-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.travel-1{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.travel-2{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.travel-3{
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #420039;
+}
+.travel-img1 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.travel-img2 img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+@media only screen and (min-width: 600px){
+    nav ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: #ffffffcc;;
+        border-radius: 10px;
+        border:#420039 10px solid;
+        justify-content: center;
+        justify-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding-top: 8px;
+    }
+    .pet-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+        margin: auto;
+        justify-content: center;
+    }
+    .pet_a{
+        grid-column: 1;
+        grid-row: 1;
+    }
+   .pet_b{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .pet_c{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .pet_d{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .pet_e{
+        grid-column: 1 / -1;
+        grid-row: 3;
+    }
+
+    .recipe-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        border: 10px solid #420039;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 15px;
+    }
+    .recipe-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        border: 10px solid #420039;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 15px;
+    }
+    .recipe-3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        border: 10px solid #420039;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 15px;
+    }
+    .recipe-opening{
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+    .ingredients{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .directions{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .recipe-gallery{
+        grid-column: 1 / -1;
+        grid-row: 3;
+    }
+
+    .travel-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        border: 10px solid #420039;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .travel-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        border: 10px solid #420039;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .travel-3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        border: 10px solid #420039;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .travel-opening {
+        grid-column: 2;
+        grid-row: 1;
+        justify-content: center;
+    }
+    .travel-opening h2 {
+        text-align: center;
+    }
+    .travel-img{
+        grid-column: 1 / -1;
+        grid-row: 2;
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .travel-info{
+        grid-column: 1 / -1;
+        grid-row: 3;
+        justify-content: center;
+    }
+    .travel-gallery {
+        grid-column: 1 / -1;
+        grid-row: 4;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    .travel-gallery-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .travel-gallery-item img {
+        width: 100%;
+        height: auto;
+    }
+    .travel-gallery-item p {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: auto;
+    }
+    .skip a{
+      -webkit-transition: none;
+      transition: none;
+     }
+    header{
+      background-attachment: initial;
+    }
+  }
